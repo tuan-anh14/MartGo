@@ -1,4 +1,4 @@
-# MartNow - Nền tảng Tạp hóa Online
+# MartGo
 
 MartNow là một nền tảng thương mại điện tử hiện đại cho phép người dùng mua sắm tạp hóa online với giao hàng nhanh. Dự án được xây dựng với kiến trúc fullstack, sử dụng NestJS cho backend và Next.js cho frontend.
 
