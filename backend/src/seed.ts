@@ -472,11 +472,8 @@ async function seed() {
       Favorite,
       SellerStats,
     ],
-    synchronize: false, // Không auto-sync để bảo vệ dữ liệu
+    synchronize: true,
     logging: true,
-    ssl: {
-      rejectUnauthorized: false,
-    },
   });
 
   try {
