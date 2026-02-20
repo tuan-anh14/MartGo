@@ -54,9 +54,6 @@ import { BlogModule } from './blog/blog.module';
         synchronize: configService.get('NODE_ENV') === 'development',
         logging: configService.get('NODE_ENV') === 'development',
         autoLoadEntities: true,
-        ssl: {
-          rejectUnauthorized: false,
-        },
         extra: {
           max: 20,
           connectionTimeoutMillis: 30000,
